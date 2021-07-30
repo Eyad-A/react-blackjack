@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import './Homepage.css';
 
-class App extends Component {
+class Homepage extends Component {
   render() {
     return (
       <div>
-        <h1>Homepage</h1>
+        <h1 className="homepage-h1">Homepage</h1>
         <p>This is a test</p>
-        <Link to='/blackjack'>
+        <Link className="btn btn-lg btn-warning" to='/blackjack'>
           Play Now!
         </Link>
       </div>
@@ -15,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Homepage;

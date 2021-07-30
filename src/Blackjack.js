@@ -130,8 +130,8 @@ class Blackjack extends Component {
 
   render() {
     return (
-      <>
-        <h1>Blackjack</h1>
+      <div className="blackjack-page">
+        <h1 className="top-section">Blackjack</h1>
         <div className="center">
           <p className="game-status">{this.state.gameStatus}</p>
         </div>
@@ -167,7 +167,7 @@ class Blackjack extends Component {
             New Game
           </button>
         </div>
-      </>
+      </div>
     )
   }
 }
