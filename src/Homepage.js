@@ -5,15 +5,79 @@ import './Homepage.css';
 class Homepage extends Component {
   render() {
     return (
-      <div>
-        <h1 className="homepage-h1">Homepage</h1>
-        <p>This is a test</p>
-        <Link className="btn btn-lg btn-warning" to='/blackjack'>
-          Play Now!
-        </Link>
-      </div>
-    );
+      <main className="flex-shrink-0">
+
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div className="container px-5">
+            <a className="navbar-brand" href="index.html">React Blackjack</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item"><a className="nav-link" href="index.html">Home</a></li>
+                <li className="nav-item"><a className="nav-link" href="about.html">Play</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <header className="bg-success py-5">
+          <div className="container px-5">
+            <div className="row gx-5 align-items-center justify-content-center">
+              <div className="col-lg-7">
+                <div className="my-5 text-center text-xl-start">
+                  <h1 className="display-5 fw-bolder text-white mb-2">A Blackjack game built in React</h1>
+                  <p className="lead fw-normal text-white text-start mb-4">Playing Blackjack has never been this easy. Take a seat and try your luck at this blackjack game built in React.js</p>
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                    <a className="btn btn-primary btn-lg btn-light px-4 me-sm-3 play-button" href="#">Play Now</a>
+                    <a className="btn btn-outline-light btn-lg px-4" href="#features">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="col-lg-5 d-none d-xl-block text-center">
+                <img className="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
+              </div> */}
+              <div className="col-lg-5 d-none d-xl-block text-center">
+                <div className="embed-responsive embed-responsive-16by9">
+                  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section className="py-5" id="features">
+          <div className="container px-5 my-5">
+            <div className="row gx-5">
+              <div className="col-lg-4 mb-5 mb-lg-0"><h2 className="fw-bolder mb-0">A better way to play Blackjack</h2></div>
+              <div className="col-lg-8">
+                <h3>Project Details</h3>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">A Blackjack game built using React.js</li>
+                  <li className="list-group-item">On initial load, a new game is started. Simply click "hit" or "stay"</li>
+                  <li className="list-group-item">The objective of the game is to beat the dealer's hand without going over 21</li>
+                  <li className="list-group-item">If you go over 21, it's a "bust" and you lose. If the dealer goes over 21, you win</li>
+                  <li className="list-group-item">Click "New Game" to start a new game</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className="py-5 bg-light">
+          <div className="container px-5 my-5">
+            <div className="row gx-5 justify-content-center">
+              <div className="col-lg-4 mb-5">
+                <img src="https://i.imgur.com/xlQkUaE.jpg" class="img-fluid biopic" alt="Image of developer" />
+              </div>
+                <div className="col-lg-8 mb-5">
+                  Bio
+                </div>
+              </div>
+            </div>
+          </div>          
+      </main>      
+        );
   }
 }
 
-export default Homepage;
+        export default Homepage;

@@ -1,3 +1,18 @@
-.homepage-h1 {
-    font-size: 60px;
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.play-button:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+iframe {
+  width: 500px;
+  height: 333px;
+}
+
+.biopic {
+  border-radius: 50%;
+  
 }
