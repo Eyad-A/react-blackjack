@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Eyad-A/react-blackjack/static/css/main.6ae993d1.chunk.css",
+    "main.js": "/Eyad-A/react-blackjack/static/js/main.021c7fc4.chunk.js",
+    "main.js.map": "/Eyad-A/react-blackjack/static/js/main.021c7fc4.chunk.js.map",
+    "runtime-main.js": "/Eyad-A/react-blackjack/static/js/runtime-main.0b0410cf.js",
+    "runtime-main.js.map": "/Eyad-A/react-blackjack/static/js/runtime-main.0b0410cf.js.map",
+    "static/css/2.455652b6.chunk.css": "/Eyad-A/react-blackjack/static/css/2.455652b6.chunk.css",
+    "static/js/2.01e4dbc0.chunk.js": "/Eyad-A/react-blackjack/static/js/2.01e4dbc0.chunk.js",
+    "static/js/2.01e4dbc0.chunk.js.map": "/Eyad-A/react-blackjack/static/js/2.01e4dbc0.chunk.js.map",
+    "static/js/3.6d3b47aa.chunk.js": "/Eyad-A/react-blackjack/static/js/3.6d3b47aa.chunk.js",
+    "static/js/3.6d3b47aa.chunk.js.map": "/Eyad-A/react-blackjack/static/js/3.6d3b47aa.chunk.js.map",
+    "index.html": "/Eyad-A/react-blackjack/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/Eyad-A/react-blackjack/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.6ae993d1.chunk.css.map": "/Eyad-A/react-blackjack/static/css/main.6ae993d1.chunk.css.map",
+    "static/js/2.01e4dbc0.chunk.js.LICENSE.txt": "/Eyad-A/react-blackjack/static/js/2.01e4dbc0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b0410cf.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.01e4dbc0.chunk.js",
+    "static/css/main.6ae993d1.chunk.css",
+    "static/js/main.021c7fc4.chunk.js"
+  ]
+}
