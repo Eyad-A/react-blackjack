@@ -6,6 +6,8 @@
 A Blackjack game written in React.js. The app uses Axios to generate a deck of card 
 from the [Deck of Cards API](https://deckofcardsapi.com/).  
 
+Deployed link: https://eyad-a.github.io/react-blackjack/  
+
 ### Features  
 - An app that users can use to play hands of Blackjack  
 - Generate cards from an external API  
