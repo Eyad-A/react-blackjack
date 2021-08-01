@@ -140,7 +140,7 @@ class Blackjack extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/blackjack">Play</Link></li>
+                <li className="nav-item"><Link className="nav-link active" to="/blackjack">Play</Link></li>
               </ul>
             </div>
           </div>
