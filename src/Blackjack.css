@@ -85,9 +85,8 @@ p {
   cursor: pointer;
 }
 
-p {
-  font-family: 'Ultra', serif;
-  color: rgba(0, 0, 0, 0.75);
+.game-area p {  
+  color: #fff;
   text-align: center;
 }
 

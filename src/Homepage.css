@@ -7,12 +7,32 @@
   color: #fff;
 }
 
-iframe {
+/* iframe {
   width: 500px;
   height: 333px;
-}
+} */
 
 .biopic {
-  border-radius: 50%;
-  
+  border-radius: 50%;  
+}
+
+.biotext span {
+  font-size: 2.5rem;  
+}
+
+.biotext a {
+  color: #000;
+}
+
+.biotext p {
+  font-size: 1.2rem;
+}
+
+.biotext a:hover {
+  color: rgb(95, 95, 95);
+}
+
+.list-group span {
+  font-size: 1.2rem;
+  color: #198754;
 }
