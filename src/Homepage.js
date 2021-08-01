@@ -5,6 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import './Homepage.css';
+import video from "./React-Blackjack.mp4";
 
 class Homepage extends Component {
   render() {
@@ -36,13 +37,10 @@ class Homepage extends Component {
                     <a className="btn btn-outline-light btn-lg px-4" href="#features">Learn More</a>
                   </div>
                 </div>
-              </div>
-              {/* <div className="col-lg-5 text-center">
-                <img className="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-              </div> */}
+              </div>              
               <div className="col-lg-5 text-center">
                 <div className="embed-responsive embed-responsive-16by9">                  
-                  <iframe title="video-demo" className="embed-responsive-item" src="https://www.loom.com/embed/2568ba766fe14641b316604288863cbb?hide_speed=true&hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe title="video-demo" className="embed-responsive-item" src={video} frameBorder="0" mozallowfullscreen="true" allowFullScreen></iframe>                  
                 </div>
               </div>
             </div>
