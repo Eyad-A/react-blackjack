@@ -30,19 +30,19 @@ class Homepage extends Component {
               <div className="col-lg-7">
                 <div className="my-5 text-center text-xl-start">
                   <h1 className="display-5 fw-bolder text-white mb-2">A Blackjack game built in React</h1>
-                  <p className="lead fw-normal text-white text-start mb-4">Playing Blackjack has never been this easy. Take a seat and try your luck at this blackjack game built in React.js</p>
+                  <p className="lead fw-normal text-white text-start mb-4">Playing Blackjack has never been this easy. Take a seat and try your luck at this Blackjack game built in React.js</p>
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">                    
                     <Link className="btn btn-primary btn-lg btn-light px-4 me-sm-3 play-button" to="/blackjack">Play Now</Link>
                     <a className="btn btn-outline-light btn-lg px-4" href="#features">Learn More</a>
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-5 d-none d-xl-block text-center">
+              {/* <div className="col-lg-5 text-center">
                 <img className="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
               </div> */}
-              <div className="col-lg-5 d-none d-xl-block text-center">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe title="video-demo" className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowFullScreen></iframe>
+              <div className="col-lg-5 text-center">
+                <div className="embed-responsive embed-responsive-16by9">                  
+                  <iframe title="video-demo" className="embed-responsive-item" src="https://www.loom.com/embed/2568ba766fe14641b316604288863cbb?hide_speed=true&hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
               </div>
             </div>
